@@ -605,7 +605,7 @@
   max-width: 236px;
 }
 .apps {
-  padding: 100px 0 118px;
+  padding: 96px 0;
   text-align: center;
 }
 .apps__title {
@@ -787,14 +787,14 @@
 }
 
 .start {
-  padding-top: 110px;
+  padding-top: 96px;
   text-align: center;
   background: linear-gradient(270deg, #F3E485 0%, #B18145 106.25%);
 }
 .start__inner {
   display: flex;
   justify-content: space-between;
-  padding: 96px 0 100px;
+  padding: 96px 0;
 }
 .start__title {
   font-family: $default-font;

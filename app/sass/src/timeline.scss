@@ -7,6 +7,7 @@
     line-height: 60px;
     text-align: center;
     color: #000000;
+	margin-bottom: 32px;
 }
 .facts__text {
     font-family: $default-font;
@@ -16,6 +17,8 @@
     line-height: 32px;
     text-align: center;
     color: rgba(0, 0, 0, 0.38);
+	display: block;
+	margin-bottom: 107px;
 }
 
 .facts {
@@ -189,15 +192,25 @@
             padding-left: 0;
             display: flex;
             justify-content: flex-end;
-            //background-image: url("../img/bg-flowers.png");
-            //background-position: center;
-            //background-repeat: no-repeat;
-            //background-size: cover;
+            background-image: url("../img/facts_bg.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+			padding: 5vw 2.5vw 5vw 16.46vw;
         }
         .col-left {
             background: #F2F2F2;
         }
     }
+}
+.number__item--third{
+	.facts__divider {
+		padding: 5vw 0;
+		align-items: center;
+        .col-right {
+			padding: 0 0 0 7.4vw;
+		}
+	}
 }
 .number__item--fourth {
     .facts__divider {
@@ -221,7 +234,7 @@
 .number__item--fourth {
     .facts__divider {
         .col-right {
-            padding-right: 50px;
+            padding: 0 2.45vw 0 12.08vw;
             display: flex;
             justify-content: flex-end;
             background: #F2F2F2;
@@ -246,6 +259,9 @@
                 }
             }
         }
+		.col-left{
+			padding-top: 0;
+		}
     }
 }
 
