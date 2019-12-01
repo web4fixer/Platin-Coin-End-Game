@@ -51,3 +51,12 @@
 		}
 	}
 }
+@media screen and (max-width: 768px){
+	.infrastructure__wrapper{
+		padding-left: 30px;
+		.dots{
+			left: 25px;
+			top: 35%;
+		}
+	}
+}

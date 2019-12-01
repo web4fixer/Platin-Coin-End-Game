@@ -3,6 +3,7 @@
 .header {
   font-family: $default-font;
   background-color: #121212;
+  max-height: 90px;
 }
 .header__content {
   display: flex;

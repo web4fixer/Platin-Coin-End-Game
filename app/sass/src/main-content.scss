@@ -34,8 +34,11 @@
   align-items: end;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 158px 0 243px;
+  padding: 125px 0 225px;
   width: 100%;
+  .row{
+	  margin-bottom: 0;
+  }
 
 }
 .slider_item-content {
@@ -52,7 +55,7 @@
   font-size: 2.25rem;
   line-height: 48px;
   color: #FFFFFF;
-  margin-bottom: 58px;
+  margin-bottom: 32px;
 
 }
 .slider__text {
@@ -62,13 +65,14 @@
   font-size: 1rem;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 34px;
+  margin-bottom: 16px;
 }
 .slider__social {
   .slider__socialList {
     display: inline-block;
     padding: 0;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
+	margin-top: 0;
     .slider__socialItem {
       display: inline-block;
       margin: 0 16px ;
@@ -85,7 +89,6 @@
   .slider__btnLink {
     text-align: center;
     margin-right: 16px;
-    margin-bottom: 16px;
     .slider__btnItem {
       padding: 18px 35px;
       background: linear-gradient(transparent, transparent) padding-box, linear-gradient(to right, #B18145, #F3E485) border-box;
@@ -150,7 +153,7 @@
 }
 .steps__title {
   font-family: $default-font;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 3rem;
   line-height: 60px;
   color: #ffffff;
@@ -234,7 +237,7 @@
   font-weight: bold;
   font-size: 2rem;
   line-height: 40px;
-  margin: 28px 0 32px;
+  margin: 0 0 48px;
   color: #ffffff;
 }
 .solve__text {
@@ -243,13 +246,19 @@
   font-size: 1rem;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .solve__subInner {
   display: flex;
   align-items: baseline;
-  margin-bottom: 46px;
+  margin-bottom: 48px;
+  img{
+	  width: 24px;
+	  height: 24px;
+	  top: 7px;
+	  position: relative;
+  }
 
 }
 .solve__subText {
@@ -301,12 +310,12 @@
   &:before {
     content: "";
     position: absolute;
-    top: 23%;
+    top: 12px;
     left: 85%;
-    height: 20px;
-    width: 20px;
+    height: 16px;
+    width: 16px;
     background-image: url("../img/solve-arrow-right.svg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
   }
 }
@@ -596,7 +605,7 @@
   max-width: 236px;
 }
 .apps {
-  padding: 100px 0 118px;
+  padding: 96px 0;
   text-align: center;
 }
 .apps__title {
@@ -778,14 +787,14 @@
 }
 
 .start {
-  padding-top: 110px;
+  padding-top: 96px;
   text-align: center;
   background: linear-gradient(270deg, #F3E485 0%, #B18145 106.25%);
 }
 .start__inner {
   display: flex;
   justify-content: space-between;
-  padding: 96px 0 100px;
+  padding: 96px 0;
 }
 .start__title {
   font-family: $default-font;
