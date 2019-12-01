@@ -138,8 +138,6 @@ $(function() {
         // init for wow plugin
         new WOW().init();
         // AOS.init();
-        $('.carousel').carousel();
-
     });
 //add dots class to element
 //     $('.swiper__list').addClass('dots__list');
@@ -147,6 +145,7 @@ $(function() {
 
 // init for header lang toggle
     $(document).ready(function(){
+		 $('.carousel').carousel();
         $(".header__lang").click(function(){
             $(".menuLanguage__tooltip").toggle();
         });
