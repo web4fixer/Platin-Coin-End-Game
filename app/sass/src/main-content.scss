@@ -656,7 +656,6 @@
 }
 .apps__boxImgInner {
   padding: 57px 2rem 0;
-
 }
 //for left side
 .apps__left {
@@ -1488,7 +1487,7 @@
   top: -55px;
   font-size: 30px;
 }
-
+//style for lang panel
 .dropdown__list {
   position: relative;
   display: inline-block;
@@ -1561,13 +1560,13 @@
   left: 16px;
 }
 .lang__item--en .lang__link:before {
-  background-image: url(../../img/en-icon.png);
+  background-image: url(../img/en-icon.png);
 }
 .lang__item--ru .lang__link:before {
-  background-image: url(../../img/en-icon.png);
+  background-image: url(../img/icon-rus.png);
 }
 .lang__item--de .lang__link:before {
-  background-image: url(../../img/en-icon.png);
+  background-image: url(../img/icon-ge.png);
 }
 .menuLanguage__tooltip {
   display: none;
