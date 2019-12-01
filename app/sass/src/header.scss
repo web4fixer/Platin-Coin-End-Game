@@ -144,6 +144,12 @@
           .menu__language {
             margin-left: 0;
             margin-top: 20px;
+            .menuLanguage__tooltip {
+              margin-top: -290px;
+              width: 156px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
           }
       }
       }
@@ -176,3 +182,4 @@
 .close:after {
   transform: rotate(-45deg);
 }
+

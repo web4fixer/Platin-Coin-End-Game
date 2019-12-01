@@ -253,13 +253,7 @@ $(function() {
                         .triggerHook(0.1)
                         .addTo(ctrl);
 
-
-
-
         });
-
-
-
 
 
         var docWidth = document.documentElement.offsetWidth;
@@ -316,8 +310,6 @@ function slider() {
 	});
 }
 slider();
-
-
 });
 
 
