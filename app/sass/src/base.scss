@@ -1,0 +1,38 @@
+
+body{
+	min-width: 320px;
+	font-family: $default-font;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	overflow-x: hidden !important;
+
+}
+* {
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+a{
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+}
+.container-fluid {
+	padding-right: 1rem;
+	padding-left: 1rem
+}
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+li {
+	list-style: none;
+
+}

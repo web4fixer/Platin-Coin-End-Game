@@ -1,0 +1,178 @@
+
+
+.header {
+  font-family: $default-font;
+  background-color: #121212;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #121212;
+}
+.header__content--inner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  padding: 25px 0 ;
+  .header__logo {
+    display: flex;
+    align-items: center;
+  }
+  .hamburger__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px 16px;
+  }
+  .header__btn {
+    line-height: 24px;
+    font-family: $default-font;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(#121212, #121212) padding-box, linear-gradient(to right, #B18145, #F3E485) border-box;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    &:last-child {
+      margin-left: 10px;
+    }
+    &:first-child {
+      border: none;
+      border-radius: 0;
+    }
+    .header__link {
+      display: block;
+      padding: 8px 33px 8px;
+      font-family: $default-font;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 0.875rem;
+      line-height: 24px;
+      align-items: center;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      &:first-child {
+        border: none;
+      }
+    }
+  }
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header_content {
+  padding: 25px 88px 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__btn-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header__content--inner {
+  background-color: #121212;
+}
+.header_content.fix {
+  background: rgba(255, 255, 255, 0.9);
+  left: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  -webkit-transition: linear 0.2s;
+  -moz-transition: linear 0.2s;
+  transition: linear 0.3s;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: animatedown 0.3s;
+  animation: animatedown 0.3s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.menuLanguage {
+  margin-left: 32px ;
+}
+#exampleModalCenter {
+  z-index: 9;
+
+}
+
+.modal {
+  height: 100vh;
+  max-height: 100%;
+  margin: 0;
+  top: 0;
+  background-color: #121212;
+}
+
+  .modal-dialog {
+    height: 100%;
+    .modal-content {
+      padding: 0;
+
+      .modal-header {
+        display: flex;
+        justify-content: center;
+        .header__logo {
+          padding: 1rem 0;
+        }
+      }
+      .modal-body__inner{
+        display: flex;
+        justify-content: flex-end;
+        height: 80vh;
+        width: 100%;
+
+
+
+        .modal-body {
+          border-radius: 0;
+          background-color: #121212;
+          padding: 0 1rem;
+          height: auto;
+          width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          .menu__language {
+            margin-left: 0;
+            margin-top: 20px;
+          }
+      }
+      }
+    }
+  }
+//style for close insyde modal btn
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 16px;
+  width: 2px;
+  background-color: #ffffff;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
