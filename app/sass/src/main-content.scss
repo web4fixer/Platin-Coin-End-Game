@@ -474,14 +474,13 @@
 }
 .salary__box {
   width: 100%;
-  max-width: 268px;
-  min-width: 268px;
+  max-width: 368px;
+  min-width: auto;
   padding: 36px 0 32px;
   background: linear-gradient(203.04deg, #F3E485 0%, #B18145 100%);
   .salary__title {
     width: 100%;
     margin-bottom: 32px;
-    word-spacing: 1000px;
     font-family: $default-font;
     font-style: normal;
     font-weight: normal;
@@ -527,6 +526,9 @@
     opacity: 0.5;
     margin-bottom: 16px;
   }
+}
+.salary__box:not(:last-child){
+	margin-right: 30px;
 }
 .salaryInfo__list {
   margin: 0 16px;
@@ -905,7 +907,7 @@
   .products__special {
     display: flex;
     width: 100%;
-    max-width: 868px;
+    max-width: 100%;
     justify-content: space-between;
     .salary__box {
       margin-bottom: 32px
@@ -923,11 +925,24 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 80px;
+  max-width: 100%;
   .salary__box {
     margin-bottom: 32px;
     max-width: 100%;
-    min-width: 200px;
+    min-width: auto;
+	width: 268px;
+	padding: 2.5vw 1.45vw 1.67vw;
 
+  }
+  .salaryInfo__list{
+	  margin-left: 0;
+	  margin-right: 0;
+	  .salaryInfo__item{
+		  border-top: 1px solid rgba(0, 0, 0, 0.1);
+	  }
+	  .salaryInfo__item:last-child{
+		  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	  }
   }
 }
 .salary__box-common {
@@ -981,7 +996,10 @@
     border: 1px solid transparent;
   }
   .salaryItem__button {
-    max-width: 174px
+    max-width: 100%;
+	width: 100%;
+	max-height: 40px;
+	padding: 8px 0;
   }
 }
 .salary__box.silver{
