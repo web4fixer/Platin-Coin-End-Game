@@ -62,7 +62,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    height: 415px;
+    height: 435px;
     width: 1px;
     background: #B18145;
 }
@@ -147,9 +147,11 @@
 }
 .number__item--second:before {
     content: "02.";
+    top: 30%;
 }
 .number__item--third:before {
     content: "03.";
+    top: 45%;
 }
 .number__item--fourth:before {
     content: "04.";
@@ -226,6 +228,9 @@
             .facts__description {
                 max-width: 100%;
                 padding-left: 115px;
+                .facts__descriptionText {
+                    max-width: 440px;
+                }
                      }
                  }
 
@@ -240,7 +245,7 @@
             background: #F2F2F2;
             .facts__imgBox {
                 img {
-                    transform: translateY(28%);
+                    transform: translateY(20%);
                 }
             }
         }
@@ -250,21 +255,25 @@
 .number__item--fifth {
     .facts__divider {
         .col-right {
+            padding-top: 76px;
             padding-right: 50px;
             display: flex;
             justify-content: flex-end;
             .facts__imgBox {
                 img {
-                    transform: translateY(39%);
+                    //transform: translateY(39%);
                 }
             }
         }
 		.col-left{
-			padding-top: 0;
+            padding-top: 76px;
+            align-items: flex-start;
 		}
     }
 }
-
+.facts__divider--last {
+    margin-bottom: -25%;
+}
 
 
 
