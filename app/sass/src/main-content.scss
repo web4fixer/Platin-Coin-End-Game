@@ -347,7 +347,7 @@
   font-family: $default-font;
   font-style: normal;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: 48px;
   line-height: 60px;
   color: #FFFFFF;
 }
@@ -355,7 +355,7 @@
   font-family: $default-font;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.54);
   margin-bottom: 0;
@@ -369,9 +369,8 @@
 .silesia__tbg {
   font-family: $default-font;
   font-style: normal;
-  white-space: nowrap;
-  font-weight: bold;
-  font-size: 6rem;
+  font-weight: 700;
+  font-size: 96px;
   line-height: 60px;
   color: #FFFFFF;
   margin-bottom: 32px;
@@ -379,9 +378,9 @@
 }
 .silesia__text {
   font-family: $default-font;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 21px;
   color: #FFFFFF;
 }
