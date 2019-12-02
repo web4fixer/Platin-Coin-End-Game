@@ -1165,8 +1165,7 @@
     align-items: baseline;
     flex-direction: column;
     flex-basis: 32.33%;
-    padding: 42px 32px 32px 32px;
-    border: 1px solid #ffffff;
+    padding: 32px;
     text-align: left;
     background: rgba(181, 136, 73, 0.3);
     &:last-child{
@@ -2226,6 +2225,13 @@
 }
 .facts {
   overflow-x: hidden;
+}
+
+.facts {
+  .facts__text {
+    max-width: 950px;
+    margin: 0 auto;
+  }
 }
 
 
