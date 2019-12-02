@@ -102,6 +102,7 @@
       font-weight: bold;
       line-height: 24px;
       text-transform: uppercase;
+      margin-bottom: 8px;
     }
     .slider__btnItem--trans {
       border: 1px solid #F3E485;
@@ -368,6 +369,7 @@
 .silesia__tbg {
   font-family: $default-font;
   font-style: normal;
+  white-space: nowrap;
   font-weight: bold;
   font-size: 6rem;
   line-height: 60px;
@@ -530,11 +532,14 @@
 .salaryInfo__list {
   margin: 0 16px;
   .salaryInfo__item {
+    display: flex;
+    justify-content: center;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 8px 0 8px;
     &:last-child {
       margin-bottom: 32px;
+
     }
     .salaryInfo__load {
       font-family: $default-font;
@@ -551,6 +556,7 @@
       font-size: 14px;
       line-height: 24px;
       color: #ffffff;
+      margin-left: 5px;
     }
     .salaryInfo__period {
       font-family: $default-font;
@@ -912,6 +918,7 @@
 }
 .salary__box-pro {
   background: linear-gradient(203.04deg, #F0F0F0 0%, #B1B1B1 100%);
+
 }
 .produts__common {
   display: flex;
@@ -1149,7 +1156,7 @@
       margin-right: 0;
     }
     img{
-      margin-bottom: 55px;
+      margin-bottom: 2rem;
     }
 
   }
@@ -2041,7 +2048,7 @@
   font-weight: 300;
   width: 50%;
   color: #fff;
-  font-family: "PTSansRegular";
+  font-family: $default-font;
 }
 
 .content-road-double .img-road {
