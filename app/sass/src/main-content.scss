@@ -892,7 +892,7 @@
   text-align: center;
 }
 .products__title {
-  margin-bottom: 90px;
+  margin-bottom: 96px;
 }
 .products__inner {
   display: flex;
@@ -980,6 +980,47 @@
   .salaryItem__button {
     max-width: 174px
   }
+}
+.salary__box.silver{
+	.salary__title{
+		color: #000;
+	}
+	.salary__img{
+		background-image: url(../img/premium1.svg);
+	}
+	.salaryItem__salary{
+		color: #000000;
+	}
+	.salaryItem__price{
+		color: #000000;
+	}
+	.salaryInfo__list{ 
+		.salaryInfo__item{
+			border-top: 1px solid rgba(0,0,0,.1);
+			border-bottom: 1px solid rgba(0,0,0,.1);
+			.salaryInfo__load{
+				color: rgba(0,0,0,.5);
+			}
+			.salaryInfo__value{
+				color: #000000;
+			}
+			.salaryInfo__period{
+				color: #000000;
+				.salaryInfo__text{
+					color: rgba(0,0,0,.5);
+				}
+			}
+			.salaryInfo__payOut{
+				color: rgba(0,0,0,.5);
+			}
+			.salaryInfo__rate{
+				color: rgba(0,0,0,.5);
+				.salaryRate__value{
+					color: #000000;
+				}
+			}
+		}
+	}
 }
 .receive {
   padding-top: 100px;
@@ -1730,6 +1771,8 @@
   align-items: center;
   img {
     color: #ffffff;
+	width: 18px;
+	height: 14px;
   }
 }
 .special__listTitle {
@@ -1754,6 +1797,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 44px;
   .special__BtnLink{
     .specialBtn {
       font-family: $default-font;
