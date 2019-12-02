@@ -20,7 +20,7 @@
 
 }
 .first-section {
-  background-image: url("../img/bg-main.png");
+  background-image: url("../img/bg-main.svg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
@@ -50,19 +50,19 @@
   position: relative;
 }
 .slider__title {
-  font-family: $default-font;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 2.25rem;
+  font-size: 36px;
   line-height: 48px;
   color: #FFFFFF;
   margin-bottom: 32px;
 
 }
 .slider__text {
-  font-family: $default-font;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 16px;
@@ -101,7 +101,6 @@
       font-size: 1rem;
       font-weight: bold;
       line-height: 24px;
-      color: rgba(0, 0, 0, 0.87);
       text-transform: uppercase;
       margin-bottom: 8px;
     }
@@ -118,10 +117,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-top: 97px;
 }
 .play__box {
   display: flex;
   justify-content: flex-end;
+  img {
+      max-width:218px;
+      max-height:218px;
+    }
 }
 .play__btn {
   text-align: center;
@@ -130,14 +134,14 @@
   display: inline-block;
   text-align: center;
   img {
-    margin-bottom: 40px;
+    margin-bottom: 22px;
   }
 }
 .play__btnText {
   font-family: $default-font;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
   background: -webkit-linear-gradient(#F3E485,#B18145);
