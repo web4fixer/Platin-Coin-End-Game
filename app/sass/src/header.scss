@@ -3,6 +3,7 @@
 .header {
   font-family: $default-font;
   background-color: #121212;
+  max-height: 90px;
 }
 .header__content {
   display: flex;
@@ -41,14 +42,15 @@
     &:first-child {
       border: none;
       border-radius: 0;
+	  background: none;
     }
     .header__link {
       display: block;
       padding: 8px 33px 8px;
       font-family: $default-font;
       font-style: normal;
-      font-weight: 900;
-      font-size: 0.875rem;
+      font-weight: 700;
+      font-size: 14px;
       line-height: 24px;
       align-items: center;
       text-align: center;
